@@ -1,0 +1,30 @@
+# Keep only the final firmware under the build output directory.
+Obj/*
+!Obj/fan_auto50_manual60.hex
+
+# Keil local workspace, backups and build products.
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.bak
+*.plg
+*.lst
+*.m51
+*.obj
+*.OBJ
+*.lnp
+*.__i
+*.log
+*.dep
+*.iex
+
+# Local archives and Python/OS caches.
+*.zip
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

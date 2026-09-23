@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+.gitignore text eol=lf
+# Preserve verified Keil XML, legacy C-source encoding and final firmware bytes.
+*.uvproj -text
+*.c -text
+*.h -text
+*.hex -text
